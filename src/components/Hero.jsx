@@ -7,6 +7,7 @@ const Hero = () => {
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col  p-4">
           <h1 className="font-bold text-4xl">Improve your Scores</h1>
           <h2 className="text-4xl py-4 italic">Pass your Exams</h2>
+          <h2 className="text-4xl py-4 italic">Pay wit Govment CHEESE!!!</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
