@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillPhone, AiOutlineClockCircle } from "react-icons/ai";
+// import { AiFillPhone, AiOutlineClockCircle } from "react-icons/ai";
 import { BsChatSquareDots } from "react-icons/bs";
 
 const TopBar = () => {
@@ -15,17 +15,17 @@ const TopBar = () => {
         </h1>
       </div>
       <div className="flex ">
-        <div className="hidden md:flex items-center px-6">
+        {/* <div className="hidden md:flex items-center px-6">
           <AiOutlineClockCircle
             size={20}
             className="mr-2 text-[var(--primary-dark)]"
           />
           <p className="text-sm text-gray-700">9AM - 5AM</p>
-        </div>
-        <div className="hidden md:flex items-center px-6">
+        </div> */}
+        {/* <div className="hidden md:flex items-center px-6">
           <AiFillPhone size={20} className="mr-2 text-[var(--primary-dark)]" />
           <p className="text-sm text-gray-700">1-800-U-TARDED</p>
-        </div>
+        </div> */}
 
         <button>Jeff If a Bitch</button>
       </div>
