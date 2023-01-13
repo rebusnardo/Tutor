@@ -5,7 +5,7 @@ import {
   FaTwitter,
   FaGooglePlusG,
   FaInstagram,
-} from "react-icons/fa";
+} from "react-icons/Fa";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
