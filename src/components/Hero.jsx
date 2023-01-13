@@ -3,11 +3,6 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full h-[90vh]">
-      <img
-        src="https://tinyurl.com/2xv6h6ay"
-        alt="Tutoring"
-        className="w-full h-full object-cover"
-      />
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col  p-4">
           <h1 className="font-bold text-4xl">Improve your Scores</h1>

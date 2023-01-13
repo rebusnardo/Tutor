@@ -34,37 +34,60 @@ const Contact = () => {
           alt="/"
           className="w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]"
         />
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="grid grid-cols-2">
-            <input className="border m-2 p-2" type="text" placeholder="First" />
-            <input className="border m-2 p-2" type="text" placeholder="Last" />
+            <input
+              className="border m-2 p-2"
+              type="text"
+              placeholder="First"
+              name="from_fName"
+            />
+            <input
+              className="border m-2 p-2"
+              type="text"
+              placeholder="Last"
+              name="from_lName"
+            />
             <input
               className="border m-2 p-2"
               type="email"
               placeholder="Email"
+              name="email"
             />
-            <input className="border m-2 p-2" type="tel" placeholder="Phone" />
             <input
-              className="border col-span-2 p-2 m-2"
-              type="text"
-              placeholder="Address"
+              className="border m-2 p-2"
+              type="tel"
+              placeholder="Phone"
+              name="phone"
             />
+            <div className="border m-2 p-2 text-center">
+              <label>Requested Time</label>
+              <select className="border rounded-md m-2 p-2" name="time">
+                <option>Morning</option>
+                <option>Mid-Day</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+              </select>
+            </div>
+
+            <div className="border m-2 p-2  text-center">
+              <label>Requested Date</label>
+              <input
+                type="date"
+                className="border rounded-md p-2 m-2"
+                name="date"
+              />
+            </div>
             <textarea
               className="border col-span-2 m-2 p-2"
               cols="30"
               rows="10"
+              name="message"
             ></textarea>
-            <button className="col-span-2 m-2">Submit</button>
+            <button className="col-span-2 m-2" onSubmit={sendEmail}>
+              Submit
+            </button>
           </div>
-        </form>
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
         </form>
       </div>
     </div>

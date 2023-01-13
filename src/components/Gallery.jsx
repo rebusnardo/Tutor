@@ -21,28 +21,32 @@ const Gallery = () => {
         </div>
         <div>
           <img
-            cla
-            snaclassName="w-full h-full object-cover"
+            className="w-full h-full object-cover"
             src="https://tinyurl.com/yzfxeasx"
             alt="/"
           />
         </div>
         <div>
           <img
-            cla
-            snaclassName="w-full h-full object-cover"
+            className="w-full h-full object-cover"
             src="https://tinyurl.com/ckkzbjac"
             alt="/"
           />
         </div>
         <div>
           <img
-            cla
-            snaclassName="w-full h-full object-cover"
-            src="https://tinyurl.com/3wpafvns"
+            className="w-full h-full object-cover"
+            src="https://tinyurl.com/3xk9p9j8"
             alt="/"
           />
         </div>
+        {/* <div>
+          <img
+            className="w-full h-full object-cover"
+            src="https://tinyurl.com/3wpafvns"
+            alt="/"
+          />
+        </div> */}
       </div>
     </div>
   );
