@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import {
   FaBars,
-  // FaFacebookF,
-  // FaTwitter,
-  // FaGooglePlusG,
-  // FaInstagram,
+  FaFacebookF,
+  FaTwitter,
+  FaGooglePlusG,
+  FaInstagram,
 } from "react-icons/fa";
 
 const NavBar = () => {
@@ -30,12 +30,12 @@ const NavBar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      {/* <div className="flex justify-between">
+      <div className="flex justify-between">
         <FaFacebookF className="mx-4" />
         <FaTwitter className="mx-4" />
         <FaGooglePlusG className="mx-4" />
         <FaInstagram className="mx-4" />
-      </div> */}
+      </div>
       {/* hamburger */}
       <div onClick={handleNav} className="md:hidden z-10">
         <FaBars size={20} className="mr-4 cursor-pointer" />
